@@ -1,8 +1,8 @@
-
+"use client"
 import { useSignIn } from "@clerk/nextjs";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import React, { use, useState } from "react";
+import React, { useState } from "react";
 
 import {
     Card,
@@ -59,7 +59,7 @@ const SignInPage = () => {
         }
     }
     return (
-        
+
     <div className="flex items-center justify-center min-h-screen bg-background">
       <Card className="w-full max-w-md">
         <CardHeader>
